@@ -5,9 +5,9 @@ import '@/styles/tables.scss'
 export default function Tables() {
     return (
         <table>
-            <tbody>
+            <tbody className='overflow-x-auto'>
                 {articles.map((article) => (
-                    <tr key={article.id} className='hover:bg-slate-200 table-tr w-full rounded-xl'>
+                    <tr key={article.id} className='hover:bg-slate-200 table-tr w-full rounded-lg overflow-auto'>
                         <td>
                             <div className="h-14 w-14 overflow-hidden">
                                 <Image src={article.image} alt='img-article' width={100} height={100} />

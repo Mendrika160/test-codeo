@@ -10,7 +10,7 @@ const fakeData = {
 }
 export default function CardProfile() {
     return (
-        <div className='card w-[300px] flex flex-col items-center gap-4 p-4 rounded-xl bg-white'>
+        <div className='card w-[300px] sm:w-full  flex flex-col items-center gap-4 p-4 rounded-xl bg-white'>
             <div className='flex items-center justify-center rounded-full h-[100px] w-[100px] overflow-hidden border-[3px] border-gray-300'>
                 <Image src={fakeData.image} width={300} height={300} alt="profil" className='h' />
             </div>

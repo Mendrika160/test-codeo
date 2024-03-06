@@ -31,3 +31,29 @@ body {
     text-wrap: balance;
   }
 }
+
+@media (max-width: 640px) {
+  .body-container{
+
+    flex-direction: column;
+    padding-inline: 10px;
+  }
+  .left-side{
+    left: 0;
+    padding-inline: 10px;
+  }
+  .card{
+    width: 100%;
+    left:0;
+  }
+  table{
+    td{
+      padding: 0 !important;
+    }
+  }
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+
+}
