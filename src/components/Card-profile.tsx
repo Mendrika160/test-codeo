@@ -6,7 +6,7 @@ import { IoIosAdd } from "react-icons/io";
 const fakeData = {
     image: imageCdeoUrl,
     name: "CODEO.MG",
-    slogan: `PASSER D'IDEE EN ACTION`
+    slogan: "PASSER D&quot;IDEE EN ACTION"
 }
 export default function CardProfile() {
     return (
