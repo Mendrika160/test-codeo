@@ -17,7 +17,7 @@ export default function CardProfile() {
             {/* info */}
             <div className="text-center">
                 <h2 className='text-lg font-medium'>{fakeData.name}</h2>
-                <p className='text-xs text-gray-500'>"{fakeData.slogan}"</p>
+                <p className='text-xs text-gray-500'>&quot;{fakeData.slogan}&quot;</p>
             </div>
 
             {/* --- */}
