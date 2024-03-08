@@ -5,7 +5,7 @@ import RightSide from "@/components/RightSide";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col bg-gray-300">
+    <main className="flex h-screen flex-col bg-gray-300">
       <Hero />
       <section className="body-container flex md:flex-col sm:flex-col lg:flex-row sm:px-5">
         <LeftSide />
